@@ -1,0 +1,61 @@
+<svg class='background'>
+    <text id='clock-date'
+          class='clock-text clock-date'
+          x='3%'
+          y='15%+20'
+          letter-spacing='0.9'
+          text-anchor='start'
+          font-size='40'>Sep 03, 2017</text>
+
+    <text id='clock-day'
+          class='clock-text clock-day'
+          x='97%'
+          y='15%+20'
+          letter-spacing='0.9'
+          text-anchor='end'
+          font-size='40'>TUE</text>
+
+    <text id='clock-time'
+          class='clock-text clock-time'
+          x='3%'
+          y='15%+135'
+          text-anchor='start'
+          font-size='130'>25:44</text>
+
+    <text id='clock-second'
+          class='clock-text clock-second'
+          x='97%'
+          y='15%+135'
+          text-anchor='end'
+          font-size='30'>23</text>
+
+    <image class='stat-label'
+           x='3%'
+           y='20%+145'
+           width='32'
+           height='32'
+           href='imgs/stat_am_open_32px.png'
+           load='sync'/>
+
+    <text id='stat-battery'
+          class='stat-value'
+          x='3%+42'
+          y='20%+172'
+          text-anchor='start'
+          font-size='35'>56%</text>
+
+    <image class='stat-label'
+           x='52%'
+           y='20%+145'
+           width='32'
+           height='32'
+           href='imgs/sqr_btn_trash_p.png'
+           load='sync'/>
+
+    <text id='stat-storage'
+          class='stat-value'
+          x='52%+42'
+          y='20%+172'
+          text-anchor='start'
+          font-size='35'>56%</text>
+</svg>
